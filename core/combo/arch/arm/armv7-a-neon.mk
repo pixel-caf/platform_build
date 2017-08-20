@@ -60,3 +60,4 @@ ifneq (,$(filter cortex-a53 denver,$(TARGET_$(combo_2nd_arch_prefix)CPU_VARIANT)
 else
 	arch_variant_cflags += -mfpu=neon
 endif
+endif
